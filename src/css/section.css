@@ -6,21 +6,17 @@ section{
 }
 
 
-.container{
-    background: url("../img/teste4.jpg");
-    border-radius: 8px;
-    /* width: 70vw; */
-}
-
 .container section{
+    background: url("../img/teste4.jpg");
     display: flex;
     align-items: center;
     height: 80vh;
+    border-radius: 8px;
 } 
 
  section h1{
     font-size: 40px;
-    margin-left: -60px;
+    margin-left: 20px;
 }
 
 section p{
@@ -28,7 +24,7 @@ section p{
     margin-top: 15px;
     color: black;
     font-weight: 400;
-    margin-left: -60px;
+    margin-left: 20px;
     line-height: 1.2;
 }
 
@@ -37,7 +33,7 @@ section button{
     width: 400px;
     padding: 10px;
     font-size: 16px;
-    margin-left: -60px;
+    margin-left: 20px;
     border-radius: 6px;
     cursor: pointer;
     background-color: black;
