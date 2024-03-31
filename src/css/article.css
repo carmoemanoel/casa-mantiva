@@ -10,3 +10,43 @@ article p{
     color: black;
     line-height: 1.2;
 }
+
+.box-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    margin-left: 50px;
+}
+
+.box-container .box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.box-container .box img{
+    height: 10px;
+}
+
+
+.box-container .box h3{
+    color: black;
+    font-size: 16px;
+    padding: 16px 0;
+}
+
+.box-container .box .price{
+    color: black;
+    font-size: 18px;
+    padding: 2px 0;
+}
+
+
+.box-container .box .price span{
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: 300;
+}
