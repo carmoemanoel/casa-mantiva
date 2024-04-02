@@ -20,7 +20,7 @@ section{
 }
 
 section p{
-    width: 40%;
+    width: 30%;
     margin-top: 15px;
     color: black;
     font-weight: 400;
@@ -30,7 +30,7 @@ section p{
 
 section button{
     margin-top: 15px;
-    width: 400px;
+    width: 250px;
     padding: 10px;
     font-size: 16px;
     margin-left: 20px;
