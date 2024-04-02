@@ -15,10 +15,11 @@ article p{
     margin-top: 40px;
     margin-bottom: 40px;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
     margin-left: 50px;
 }
+
 
 .box-container .box{
     text-align: center;
@@ -28,20 +29,23 @@ article p{
 }
 
 .box-container .box img{
-    height: 10px;
+    /* height: 10px; */
+    width: 100px;
+    height: 100px;
 }
 
 
 .box-container .box h3{
     color: black;
     font-size: 16px;
-    padding: 16px 0;
+    padding: 10px 0;
 }
 
 .box-container .box .price{
     color: black;
     font-size: 18px;
     padding: 2px 0;
+    margin-bottom: 20px;
 }
 
 
@@ -49,4 +53,18 @@ article p{
     font-size: 15px;
     text-decoration: line-through;
     font-weight: 300;
+}
+
+.box-container .box .btn{
+    border-radius: 8px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    color:white;
+    background-color: black;
+    font-weight: 200;
+}
+
+.box-container .box .btn:hover{
+    background-color: rgb(91, 89, 89);
+    transition: 2s;
 }
