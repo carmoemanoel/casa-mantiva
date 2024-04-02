@@ -2,7 +2,7 @@ section{
     width: 100%;
     height: 60vh;
     /* border: 1px solid  black; */
-    margin-top: -30px;
+    /* margin-top: -30px; */
 }
 
 
@@ -10,8 +10,9 @@ section{
     background: url("../img/teste4.jpg");
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 53vh;
     border-radius: 8px;
+    /* margin-top: 130px; */
 } 
 
  section h1{
@@ -23,7 +24,7 @@ section p{
     width: 30%;
     margin-top: 15px;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 20px;
     line-height: 1.2;
 }
