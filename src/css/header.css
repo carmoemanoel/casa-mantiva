@@ -1,10 +1,15 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 2rem 10rem;
+    justify-content: space-between;
+    margin-left: 430px;
+    padding: 1rem 10rem;
     /* background-color: var(--tertiary); */
-    /* position: fixed; */
+    position: fixed;
+    /* border: 1px solid black; */
+    max-width: 1050px;
+    background-color: white;
+    /* border-radius: 8px; */
 }
 
 /* header img{
@@ -22,6 +27,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-left: 100px;
 }
 
 nav a{
