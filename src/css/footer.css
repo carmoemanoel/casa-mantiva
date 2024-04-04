@@ -1,0 +1,26 @@
+footer h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* footer img{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+} */
+
+.icons-redes{
+    display: flex;
+    margin-left: 410px;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+footer p{
+    width:750px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
