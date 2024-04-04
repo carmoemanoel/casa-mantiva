@@ -1,15 +1,13 @@
 header{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 430px;
+    justify-content: center;
     padding: 10px 10rem;
     /* background-color: var(--tertiary); */
     position: fixed;
     /* border: 1px solid black; */
-    max-width: 1050px;
     background-color: white;
-    /* border-radius: 8px; */
 }
 
 /* header img{
